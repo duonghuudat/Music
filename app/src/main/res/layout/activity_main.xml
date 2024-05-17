@@ -44,15 +44,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp"/>
+
     <TextView
         android:id="@+id/remainingTimeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        app:layout_constraintTop_toBottomOf="@+id/repeatCheckBox"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Remaining Time: 00:00"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        app:layout_constraintStart_toEndOf="@+id/repeatCheckBox"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"/>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
